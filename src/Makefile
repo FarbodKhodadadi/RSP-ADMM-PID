@@ -11,11 +11,6 @@ train:
 experiments:
 	$(PYTHON) python/run_experiments.py
 
-figures:
-	MPLCONFIGDIR=.matplotlib $(PYTHON) python/make_figures.py
-
 matlab-assets:
 	$(PYTHON) python/export_matlab_assets.py
 
-paper:
-	cd paper && latexmk -pdf icbme_rsp_admm_pid.tex
