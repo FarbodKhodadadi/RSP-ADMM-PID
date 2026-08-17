@@ -1,0 +1,11 @@
+{
+  "test_subjects_per_cohort": 30,
+  "ablation_subjects_per_cohort": 15,
+  "subject_seed_base": 900000,
+  "day_seed_base": 1000000,
+  "control_period_min": 5,
+  "integration_period_min": 1,
+  "primary_method": "RSP-ADMM-PID (proposed)",
+  "selected_direct_seed": 11,
+  "selected_pid_seed": 47
+}

@@ -1,0 +1,56 @@
+{
+  "direct": {
+    "mode": "direct",
+    "selected_seed": 11,
+    "candidates": [
+      {
+        "seed": 11,
+        "path": "/workspace/scratch/da9825f58cf0/ICBME2026_RSP_ADMM_PID/results/policies/direct_ppo_seed11.npz",
+        "score": 67.29716397982342,
+        "tir": 75.17301038062283,
+        "rmse": 59.849067094010266
+      },
+      {
+        "seed": 29,
+        "path": "/workspace/scratch/da9825f58cf0/ICBME2026_RSP_ADMM_PID/results/policies/direct_ppo_seed29.npz",
+        "score": 70.55842057355615,
+        "tir": 73.46453287197232,
+        "rmse": 62.59778043514784
+      },
+      {
+        "seed": 47,
+        "path": "/workspace/scratch/da9825f58cf0/ICBME2026_RSP_ADMM_PID/results/policies/direct_ppo_seed47.npz",
+        "score": 71.25145261421115,
+        "tir": 72.85899653979239,
+        "rmse": 63.10915157614887
+      }
+    ]
+  },
+  "pid": {
+    "mode": "pid",
+    "selected_seed": 47,
+    "candidates": [
+      {
+        "seed": 11,
+        "path": "/workspace/scratch/da9825f58cf0/ICBME2026_RSP_ADMM_PID/results/policies/pid_ppo_seed11.npz",
+        "score": 47.12202628693066,
+        "tir": 86.69982698961937,
+        "rmse": 42.65403320734589
+      },
+      {
+        "seed": 29,
+        "path": "/workspace/scratch/da9825f58cf0/ICBME2026_RSP_ADMM_PID/results/policies/pid_ppo_seed29.npz",
+        "score": 47.01134623446339,
+        "tir": 86.57006920415225,
+        "rmse": 42.46766111335613
+      },
+      {
+        "seed": 47,
+        "path": "/workspace/scratch/da9825f58cf0/ICBME2026_RSP_ADMM_PID/results/policies/pid_ppo_seed47.npz",
+        "score": 46.958252562664015,
+        "tir": 86.74307958477509,
+        "rmse": 42.42970584986125
+      }
+    ]
+  }
+}
